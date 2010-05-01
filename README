@@ -1,0 +1,20 @@
+A Makefile is provided to compile the program.
+
+make ls compiles the ls program
+make clean removes the compiled program
+
+To run the program use: ./ls (<flags>) (<directory>)
+
+Supports the following flags:
+ 	-l produces a detailed listing of the files
+	-a includes files beginning with ‘.’ (hidden files)
+	-i prints the index number of the file
+	-F appends a symbol to the filename to represent the classification of the file:
+		- / directory
+		- @ symbolic link
+		- = socket
+		- - FIFO
+		- * executable
+	-S sorts files by file size
+	-t sorts files by time last modified
+ 	-X sorts files by file extension
