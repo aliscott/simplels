@@ -1,6 +1,6 @@
 /*
  * Implementation of utility functions for the ls program
- * author: 060004694
+ * author: Ali Scott
  */
 
 #include <math.h>
